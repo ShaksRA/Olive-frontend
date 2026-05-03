@@ -282,9 +282,20 @@ export default function OliveLanding() {
         </p>
 
         {/* CTA */}
-        <div className="fu d3" style={{ marginBottom:52 }}>
-          <button className="btn-dl"><AppleIcon/> Download for iOS</button>
-        </div>
+        <div className="fu d3" style={{ marginBottom:52, display:"flex", flexDirection:"column", alignItems:"center", gap:16 }}>
+  <button className="btn-dl"><AppleIcon/> Download for iOS</button>
+  <a href="#"
+    style={{ display:"inline-flex", alignItems:"center", gap:8, fontSize:15, fontWeight:700, color:"#2d4a1e", textDecoration:"none", transition:"gap .2s" }}
+    onMouseEnter={e => e.currentTarget.style.gap = "13px"}
+    onMouseLeave={e => e.currentTarget.style.gap = "8px"}>
+    Join the Olive Community
+    <span style={{
+      display:"inline-flex", alignItems:"center", justifyContent:"center",
+      width:24, height:24, borderRadius:"50%",
+      border:"2px solid #2d4a1e", fontSize:14, lineHeight:1
+    }}>›</span>
+  </a>
+</div>
 
         {/* ═══════════════════════════════════════════════════════════
             COMPOSITE SECTION
