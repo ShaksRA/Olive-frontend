@@ -179,7 +179,7 @@ Make sure `html, body` have no default margin. The component injects a global `*
 **Module not found errors?**
 Make sure the import path in `main.jsx` exactly matches the filename (case-sensitive on Linux/Mac).
 
-**Final Page Screenshot
+## Final Page Screenshot
 <img width="1277" height="1381" alt="image" src="https://github.com/user-attachments/assets/af46ebf6-2173-4c28-ba73-5393572aad42" />
 
 ---
