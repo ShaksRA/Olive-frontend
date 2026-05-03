@@ -180,7 +180,8 @@ Make sure `html, body` have no default margin. The component injects a global `*
 Make sure the import path in `main.jsx` exactly matches the filename (case-sensitive on Linux/Mac).
 
 ## 🫒 Final Page Screenshot
-<img width="1277" height="1381" alt="image" src="https://github.com/user-attachments/assets/af46ebf6-2173-4c28-ba73-5393572aad42" />
+<img width="1237" height="1383" alt="image" src="https://github.com/user-attachments/assets/d76048c1-7f88-43bf-8835-2465cb39ef06" />
+
 
 ---
 
